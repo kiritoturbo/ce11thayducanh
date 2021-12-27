@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: aqua;
+            text-align: center;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 200px auto 200px;
+            grid-template-rows:500px ;
+            /* column-gap: 10px; */
+            text-align: center;
+           
+        }
+        
+        .left-panel{
+            /* grid-column: 1/3; */
+            background-color: yellow;
+          
+        }
+        .content{
+            background-color: red;
+         
+
+        }
+        .right-panel{
+            background-color: yellow;
+           
+
+        }
+        .footer{
+            background-color: yellowgreen;
+            text-align: center;
+            
+            
+        }
+        div{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" >HEADER</div>
+
+    <div class="container">
+        <div class="left-panel">LEFT PANEL</div>
+        <div class="content">CONTENT</div>
+        <div class="right-panel">
+            RIGHT-PANEL
+        </div>
+        
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>

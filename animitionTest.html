@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test animation Trường</title>
+    <style>
+        .ten{
+            display: none;
+        }
+        :root{
+            --background-color-hinhvuongnho:pink;
+            --background-color-hinhvuong:yellow;
+        }
+        .hinhVuong{
+            background-color: var(--background-color-hinhvuongnho);
+            height: 200px;
+            width: 200px;
+        }
+        .hinhVuongNho{
+            background-color: red;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            animation: chayHinhVuong 10s infinite ;
+        }
+        @keyframes chayHinhVuong{
+            0%{
+                left: 0px;
+            }
+            25%{
+                left:180px;
+                top: 0;
+            }
+            50%{
+                left: 180px;
+                top: 180px;     
+            }
+            75%{
+                left: 0px;
+                top: 180px;
+            }
+            100%{
+                left: 0px;
+                top: 0px;
+            }
+        }
+        @media screen  and (max-width:700px){
+            :root{
+            --background-color-hinhvuongnho:rgb(27, 23, 24);
+            --background-color-hinhvuong:rgb(0, 255, 213);
+        }
+        .ten{
+            display: block;
+            font-size: 30px;
+            color: burlywood;
+            
+        }
+        .hinhVuong{
+            margin: auto;
+            margin-top: 50px;
+            position:relative;
+            background-color: var(--background-color-hinhvuongnho);
+            height: 100px;
+            width: 100px;
+        }
+        .hinhVuongNho{
+            background-color: red;
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            animation: chayHinhVuong 8s infinite ;
+        }
+        @keyframes chayHinhVuong{
+            0%{
+                left: 0px;
+            }
+            25%{
+                left:90px;
+                top: 0;
+            }
+            50%{
+                left: 90px;
+                top: 90px;     
+            }
+            75%{
+                left: 0px;
+                top: 90px;
+            }
+            100%{
+                left: 0px;
+                top: 0px;
+            }
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="hinhVuong">
+        <div class="hinhVuongNho"></div>
+    </div>
+    <div class="ten">
+        <marquee behavior="" direction="">Nguyễn Văn trường</marquee>
+    </div>
+</body>
+</html>

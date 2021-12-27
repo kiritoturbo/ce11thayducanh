@@ -1,0 +1,10 @@
+.contrainer {
+    width: 700px;
+    height: 500px;
+    background-color: blanchedalmond;
+    /* display: flex; */
+    
+}
+label input textarea{
+    display: block;
+}

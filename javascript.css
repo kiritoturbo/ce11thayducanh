@@ -1,0 +1,11 @@
+p{
+    font-size: 100px;
+    color: blue;
+    
+}
+button{
+    border: none;
+    border-radius: 6px;
+    background-color: coral;
+    padding: 6px 15px;
+}

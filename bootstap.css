@@ -1,0 +1,18 @@
+.container {
+    max-width: 960px;
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+.chiacot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+    
+}
+.footer{
+    margin: 20px auto;
+    align-items:flex-end;
+}

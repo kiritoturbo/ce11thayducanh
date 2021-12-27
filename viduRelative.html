@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ví dụ về ralative và Absolute</title>
+    <style>
+        .relative{
+            /* position: relative; */
+            height: 300px;
+            width: 300px;
+            margin: 100px auto;
+            background-color:blue ;
+        }
+        .absolute{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+        }
+        .red{
+            top: 200px;
+            left: 100px;
+            background-color:red ;
+        }
+        .yellow{
+            top: 100px;
+            left: 200px;
+            background: yellow;
+        }
+        .white{
+            top: 150px;
+            left: 250px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <div class="absolute red"></div>
+        <div class="absolute yellow"></div>
+        <div class="absolute white"></div>
+    </div>
+</body>
+</html>

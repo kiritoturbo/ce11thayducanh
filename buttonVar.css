@@ -1,0 +1,68 @@
+:root{
+    --blue:blue;
+    --green:#198754;
+    --red:red;
+    --yellow:#ffc107;
+    --xanh:#0dcaf0;
+    --white:white;
+    --black:black;
+}
+body{
+    margin-left: 100px;
+}
+.btn{
+    padding: 8px 15px;
+    opacity: 1;
+    color: white;
+    border: none;
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    color: white;
+}
+.btn--primary{
+    background-color: var(--blue) ;
+}
+.btn--success{
+    background-color: var(--green);
+
+}
+.btn--danger{
+    background-color: var(--red);
+}
+.btn--warning{
+    background-color: var(--yellow);
+    color: var(--black);
+}
+.btn--warning:hover{
+    color: var(--black);
+}
+.btn--info{      
+    background-color: var(--xanh);
+    color: var(--black);
+
+}
+.btn--light{
+    background-color: var();
+    color: var(--black);
+    background-color: #f8f9fa;
+}
+.btn--light:hover{
+    color: black;
+}
+.btn--dark{
+    background-color: var(--black);
+}
+.btn--link{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid black;
+    text-decoration: underline;
+}
+.btn--link:hover{
+    color: black;
+}

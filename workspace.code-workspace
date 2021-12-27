@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "D:\\w3_school"
+		},
+		{
+			"path": "..\\demo"
+		},
+		{
+			"path": "..\\bai5"
+		},
+		{
+			"path": "..\\bau6"
+		},
+		{
+			"path": "..\\sidebar"
+		},
+		{
+			"path": "..\\Blog Source Code"
+		},
+		{
+			"path": "..\\web"
+		},
+		{
+			"path": "..\\Add_Update_Remove"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\inventory-management-system-in-php-with-ajax-jquery"
+		},
+		{
+			"path": "..\\lich"
+		},
+		{
+			"path": "..\\qlnhanvien"
+		},
+		{
+			"path": "..\\qlhethong"
+		},
+		{
+			"path": "..\\baitaplonweb"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ce11"
+	}
+}

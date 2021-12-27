@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+html{
+    height: 1000px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    height:  48px;
+}
+.header{
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+
+  
+}
+.header-content{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 40px;
+}
+.header-search{
+    width: 180px;
+    display: flex;
+    justify-content: end;
+}
+.header-inputSearch{
+
+}
+.slide-title{
+    margin-right: 10px;
+}
+.slide-info{
+    color: red;
+}
+.header-iconSearch{
+    padding: 8px;
+
+}
+.header-arrow::after{
+    content: "";
+    /* background-color: blue; */
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.header-groupUser{
+    display: flex;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 24px;
+    position: relative;
+}
+.header-contentTitle{
+    background-color: rgb(46, 134, 46);
+    color:#fff;
+    padding: 8px 24px;
+    border-top-right-radius: 36px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-right: 8px;
+}
+/* .header-inputSearch{
+    max-width: 150px;
+    margin-right: 40px;
+} */
+.input-search{
+    /* padding: 8px ; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 0px ;
+    border: none;
+    border-bottom: 2px solid green;
+    margin-right: 8px;
+    outline: none;
+    transition:width 1s;
+}
+/* .input-search:hover{
+    width: 150px;
+} */
+.header-search:hover .input-search{
+    width: 150px;
+    
+}
+.iconSearch{
+    font-size: 16px;
+
+}
+.header-logo{
+    padding-top: 12px;
+}
+.header-userIcon{
+    margin-right: 8px;
+}
+.iconUp{
+    font-size: 16px;
+    display: none;
+}
+.iconDown{
+    font-size: 16px;
+}
+/* Navigation */
+.app{
+    width: 100%;
+    background-color: rgb(37, 104, 37);
+    line-height: 36px;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; */
+  
+}
+.nav{
+    width: 1150px;
+    margin: auto;
+    padding-left: 8px;
+
+}
+.menuBa1 a:hover ul li{
+    display: inline-block;
+}
+.menuBa 
+{
+    display: none;
+}
+.menu{
+    line-height: 36px;
+
+}
+.menu >li:hover{
+    background-color: rgb(67, 143, 67);
+}
+.menu li{
+    display: inline-block;
+    padding: 0px 4px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+.home-icon{
+    font-size: 16px;
+}
+
+.header-arrow:hover .fas.fa-chevron-down{
+    display: none;
+}
+.header-arrow:hover .fas.fa-chevron-up{
+    display: inline-block;
+}
+.user__login{
+    position: absolute;
+    min-width: 200px;
+    background-color: #fff;
+    top: 50px;
+    right: 0px;
+    display: none;
+    padding: 8px;
+}
+.userLogin__logo{
+    margin-right: 8px;
+}
+.user__login:hover{
+    display: inline-flex;
+}
+.loginTitle{
+    text-decoration: none;
+    color: black;
+}
+.loginTitle:hover{
+    color: #06c;
+}
+.header-arrow:hover ~.user__login{
+    display: flex;
+}
+
+/* Menu */
+.sub__menu{
+    position:relative;
+}
+.submenu ul{
+    list-style-type: disc;
+}
+.submenu-content{
+    position:absolute;
+    color: black;
+    min-width: 200px;
+    background-color: #fff;
+    list-style-type: disc !important;
+    box-shadow: 0 0 3px #bbb;
+    display: none;
+    padding-left:5px;
+    
+}
+.menuBa1{
+    position: relative;
+}
+.menuBa{
+    position:absolute;
+    color: black;
+    min-width: 240px;
+    background-color: #fff;
+    /* list-style-type: disc !important; */
+    box-shadow: 0 0 3px #bbb;
+    display: none;
+    padding-left:5px;
+}
+.fas .fa-circle{
+    float: left;
+    width: 50%;
+    padding: 0 12px;
+}
+.menuBa{
+    /* display: block; */
+}
+.menuBa1:hover .menuBa{
+    display: block;
+}
+.submenu-content li{
+    display: block;
+}
+.submenu__item {
+    color: black ;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    font-weight: bold;
+}
+.submenu__item:hover{
+    color: #06c;
+}
+.dot-item{
+    font-size:4px;
+    margin-right: 8px;
+    color: green;
+}
+.submenu:hover .submenu-content{
+    display: block;
+}
+.check{
+    display: none;
+}

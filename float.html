@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            float: left;
+            margin: 10px;
+            border: 3px solid yellowgreen;
+        }
+        .div2{
+            border: 1px solid red;
+        }
+        .div3{
+            float: left;
+            margin: 10px;
+            border: 3px solid yellowgreen;
+        }
+        .div4{
+            border: 1px solid red;
+            clear: left;
+        }
+        .div5{
+            border: 3px solid yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>Không dùng Clear </h2>
+    <div class="div1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsSYFCjoJgR5jnc33Gcil9u2w8Gfm2v1GlW762ZRO5Cou7NGbVFJFO4Nohq0hAFaEUMK4&usqp=CAU" alt="" style="width:100px;height:100px;"></div>
+    <div class="div2">div2 nằm sau div1 trong code HTML.Tuy nhiên ,vì div1 float sang trái nên văn bản trong div2 trôi xung quanh div1.</div>
+    <br><br><br><br>
+    <h2>Sử dụng Clear</h2>
+    <div class="div3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsSYFCjoJgR5jnc33Gcil9u2w8Gfm2v1GlW762ZRO5Cou7NGbVFJFO4Nohq0hAFaEUMK4&usqp=CAU" alt="" style="width:100px;height:100px;"></div>
+    <div class="div4">Ví dụ này sử dụng clear:left;chuyển div4 xuống dưới div3 đang float,nghĩa là clear các phần tử tràn vào phía bên trái </div>
+
+    <h2>Không sử dụng Float</h2>
+    <div class="div5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsSYFCjoJgR5jnc33Gcil9u2w8Gfm2v1GlW762ZRO5Cou7NGbVFJFO4Nohq0hAFaEUMK4&usqp=CAU" style="width:100px;height:100px;" alt=""></div>
+    <div class="div4">Ví dụ này sử dung clear:left:chuyển div4 xuống dưới div3 đang float,nghĩa là clear các hần tử tràn vào phía bên trái </div>
+</body>
+</html>
