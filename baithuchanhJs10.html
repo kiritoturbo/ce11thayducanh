@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="baithuchanhJs10.js"></script>
+</head>
+
+<body>
+    Thực hành 5.
+    Cho mảng people = ["Greg", "Mary", "Devon", "James"]. Thực hành các yêu cầu sau
+    1. Khai báo mảng People
+    2. Sử dụng vòng lặp để in ra tên của các đối tượng trong mảng
+    3. Viết lệnh xóa "Greg" khỏi mảng
+    4. Viết lệnh xóa "James" khỏi mảng.
+    5. Viết lệnh thêm "Matt" vào phía trước của mảng.
+    6. Viết lệnh thêm tên của bạn vào cuối mảng.
+    7. Sử dụng vòng lặp, lặp qua mảng này và sau khi console.log "Mary", thoát khỏi vòng lặp.
+    8. Viết lệnh để tạo một bản sao của mảng sử dụng slice. Bản sao KHÔNG được bao gồm "Mary" hoặc "Matt".
+    9. Viết lệnh cung cấp indexOf nơi "Mary" được đặt.
+    10. Xác định lại số người bằng giá trị mà khởi tạo. Sử dụng lệnh splice, xóa "Devon" khỏi mảng và thêm "Elizabeth"
+    và "Artie". Mảng của kết quả ["Greg", "Mary", "Elizabeth", "Artie", "James"].
+    11. Tạo một biến mới được gọi là withBob và đặt nó bằng với mảng người được nối với chuỗi "Bob"
+    <hr>
+    <script>
+        let arr = ["I", "study", "JavaScript"];
+
+        // from index 2
+        // delete 0
+        // then insert "complex" and "language"
+        arr.splice(2, 0, "complex", "language");//có nghĩa là từ vị trị thứ 2 ,xóa 0 thành phần và thêm 2 thành phần ("complex", "language")vào phía sau 
+
+        alert(arr); // "I", "study", "complex", "language", "JavaScript"
+    </script>
+</body>
+
+</html>
